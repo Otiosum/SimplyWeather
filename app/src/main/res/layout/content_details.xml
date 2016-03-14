@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/det_scroller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        tools:context="akos.online.simplyweather.MainActivity"
+        tools:showIn="@layout/activity_details">
+
+        <fragment
+            android:id="@+id/top_fragment"
+            android:name="akos.online.simplyweather.TopFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/middle_fragment"
+            android:name="akos.online.simplyweather.MiddleFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/bottom_fragment"
+            android:name="akos.online.simplyweather.BottomFragment"
+            android:layout_width="match_parent"
+            android:layout_height="560dp" />
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Simply Weather</string>
+
+    <string name="saved_home_id_default">0</string>
+    <string name="saved_home_id">0</string>
+
+    <string name="code_reset_db">RESET</string>
+    <string name="code_delete_element">DELETE</string>
+
+    <string name="msg_reset_db">Are you sure you wish to erase all cities?</string>
+    <string name="msg_delete_city">Are you sure you wish to delete this city?</string>
+    <string name="msg_no_home_location">You do not have a home location set</string>
+    <string name="msg_empty_city_list">There are no cities added to the list</string>
+    <string name="msg_help">
+        HELP:\n\n
+        Add cities by pressing the plus button\n
+        Delete or set as home by long-pressing on any city card\n
+        Press once on any city card to view more\n
+        If nothing loads, press refresh at the top to try again.\n
+        Press the options in the corner to navigate to home location\n
+    </string>
+
+    <string name="err_loading_cities">Something went wrong when loading cities!</string>
+    <string name="err_loading_forecast">Something went wrong when loading the forecast!</string>
+    <string name="err_loading_weather">Something went wrong when loading the weather!</string>
+    <string name="err_partial_load_fail">Error loading some cities. Please refresh</string>
+    <string name="err_field_empty">Search field left empty!</string>
+    <string name="err_city_already_present">City already present in list!</string>
+    <string name="err_city_not_found">City not found!</string>
+    <string name="err_missing_browser">No application can handle this request. Please install a web browser</string>
+
+    <string name="action_help">Help</string>
+    <string name="action_delete_db">Reset</string>
+    <string name="action_home">Home</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="context_delete_item">Delete item</string>
+    <string name="context_make_home">Make home</string>
+
+    <string name="toolbar_city_list">Favourite cities</string>
+    <string name="toolbar_search_city">Search for new cities</string>
+
+    <string name="cardview_details_current">Current</string>
+    <string name="cardview_details_forecast">Forecast</string>
+
+    <string name="det_cloudness">Amount of clouds: </string>
+    <string name="det_humidity">Humidity: </string>
+    <string name="det_pressure">Pressure: </string>
+    <string name="det_wind_speed">Wind speed: </string>
+    <string name="det_current">current</string>
+    <string name="det_forecast">forecast</string>
+
+    <string-array name="action_items">
+        <item>Home</item>
+        <item>Reset</item>
+    </string-array>
+</resources>

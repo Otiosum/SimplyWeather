@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/det_top_cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        card_view:cardCornerRadius="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/det_forecast_txt"
+            android:layout_alignParentLeft="true"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/cardview_details_forecast"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/forecast_rv"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

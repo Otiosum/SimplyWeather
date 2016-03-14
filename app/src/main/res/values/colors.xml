@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#00b386</color>
+    <color name="colorPrimaryDark">#008060</color>
+    <color name="colorAccent">#b32100</color>
+    <color name="colorInputAccent">#ffffff</color>
+    <color name="colorTempDay">#ff2f00</color>
+    <color name="colorTempNight">#0066ff</color>
+    <color name="colorWeatherIcon">#00ace6</color>
+</resources>
